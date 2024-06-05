@@ -30,3 +30,16 @@ body {
   padding-top: 15px;
   font-size: 20px;
 }
+/* Shine */
+.cards img {
+  position: relative;
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.cards img:hover {
+  -webkit-filter: brightness(100%);
+}
